@@ -14,12 +14,12 @@ export default function Process() {
                         the design you crave has just made its appearance.
                     </p>
                 </div>
-                 <button 
-                    id="plans" 
+                 <a
+                    href="#plans" 
                     className="w-40 bg-neon text-black flex items-center justify-center gap-4 py-3
                             hover:bg-light-orange hover:text-white transition-all rounded-full"
                  >See Plan <ArrowRight />
-                 </button>
+                 </a>
             </div>
 
             <div className="flex flex-col items-center lg:flex-row-reverse pt-10">

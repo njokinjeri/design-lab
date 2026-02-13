@@ -1,1 +1,31 @@
-@import "tailwindcss"
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+@theme {
+    --color-dark-orange: #DB3101;
+    --color-light-orange: #FF850A;
+    --color-neon: #DDFF00;
+    --color-dark-gray: #0D0D0D;
+    --font-instrument: "Instrument Sans", sans-serif;
+    --background-image-subtle: linear-gradient(
+        rgba(31, 31, 31, 0.8) 0%,
+        rgba(69, 69, 69, 0.23) 100%
+    );
+    --faq-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    --billing-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+    --animate-marquee: marquee 25s linear infinite;
+
+    @keyframes marquee {
+        0% {
+            transform: translate3d(0, 0, 0);
+            }
+        100% {
+            transform: translate3d(-100%, 0, 0);
+            }
+    }
+}

@@ -34,11 +34,11 @@ export default function Features() {
                         />
                         <h3 className="relative z-50 text-white/80  text-4xl text-center">Get started today</h3>
                         <div>
-                            <button id="plans" 
+                            <a href="#plans" 
                                 className="w-full bg-neon text-black flex justify-center items-center py-3 px-6 rounded-full relative z-50 cursor-pointer
                                          hover:bg-light-orange hover:text-white transition-all"
                                 >See Plan <ArrowRight />
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>

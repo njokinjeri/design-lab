@@ -26,7 +26,7 @@ export default function FAQ() {
                                 className="w-full flex justify-between items-center text-left"
                                 >
                                     <h3 className="w-[85%] text-lg text-white font-medium">{faq.question}</h3>
-                                    <div className="size-10 rounded-full bg-subtle flex justify-center items-center shadow-(--my-shadow) cursor-pointer">
+                                    <div className="size-10 rounded-full bg-subtle flex justify-center items-center shadow-(--faq-shadow) cursor-pointer">
                                         <Plus className={`transition-transform text-white ${isOpen ? "rotate-45" : ""}`} />
                                     </div>
                             </button>

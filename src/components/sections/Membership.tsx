@@ -11,7 +11,7 @@ export default function Membership() {
       const [billing, setBilling] = useState<Billing>("yearly");
 
     return (
-        <section className="w-[90%] max-w-7xl mx-auto text-white font-instrument">
+        <section id="plans" className="w-[90%] max-w-7xl mx-auto text-white font-instrument">
             <div className="flex flex-col items-center gap-4">
                 <h2 className="text-5xl">Memberships</h2>
                 <p className="text-white/60">Flexible pricing designed to scale with your needs.</p>
@@ -37,7 +37,7 @@ export default function Membership() {
                     {plans.map((plan) => {
                         const Icon = plan.icon;
                         return (
-                            <div key={plan.name} className="bg-subtle h-170 flex flex-col justify-between border border-white/10 rounded-[8vw] md:rounded-[4vw] overflow-hidden
+                            <div key={plan.name} className="bg-subtle h-170 flex flex-col justify-between border border-white/10 rounded-[6vw] md:rounded-[4vw] overflow-hidden
                                                             md:h-100 md:flex-row md:items-center">
                                 <div className="flex flex-col">
                                     <div className="relative flex flex-col gap-3 py-8 px-6">
