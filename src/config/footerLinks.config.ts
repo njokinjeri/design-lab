@@ -6,9 +6,9 @@ export const footerSections: FooterSection[] = [
         links: [
             { label: "Process", href: "#process" },
             { label: "Feature", href: "#features" },
-            { label: "Case Study", href: "#case-study" },
+            { label: "Case Study", href: "#casestudy" },
             { label: "FAQs", href: "#faqs" },
-            { label: "memberships", href: "#memberships"},
+            { label: "Memberships", href: "#plans"},
         ],
     }
 ]
