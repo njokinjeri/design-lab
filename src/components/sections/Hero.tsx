@@ -12,7 +12,7 @@ export default function Hero() {
             />
             <div className="w-full relative flex flex-col items-center gap-4 lg:items-start">
                 <div className="flex flex-col items-center gap-4 lg:items-start">
-                    <h2 className="text-6xl">Design by <br /> Drag & Drop</h2>
+                    <h2 className="text-4xl sm:text-6xl">Design by <br /> Drag & Drop</h2>
                     <p>Design subscriptions for every brand. <br />
                         Pause or cancel anytime.
                     </p>

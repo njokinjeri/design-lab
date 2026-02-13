@@ -9,7 +9,7 @@ export default function Process() {
         <section id="process" className="max-w-7xl mx-auto text-white font-instrument mb-20">
             <div className="flex flex-col items-center gap-6">
                 <div className="flex flex-col gap-6">
-                    <h2 className="text-5xl tracking-wide">How to get started </h2>
+                    <h2 className="text-5xl tracking-wide text-center">How to get started </h2>
                     <p className="text-sm text-white/80 text-center">Conventional design has been shown the door; <br />
                         the design you crave has just made its appearance.
                     </p>

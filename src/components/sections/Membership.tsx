@@ -14,7 +14,7 @@ export default function Membership() {
         <section id="plans" className="w-[90%] max-w-7xl mx-auto text-white font-instrument">
             <div className="flex flex-col items-center gap-4">
                 <h2 className="text-5xl">Memberships</h2>
-                <p className="text-white/60">Flexible pricing designed to scale with your needs.</p>
+                <p className="text-white/60 text-center">Flexible pricing designed to scale with your needs.</p>
                 <div className="inline-flex bg-white/10 rounded-full shadow-(--billing-shadow)">
                     <button onClick={() =>setBilling("monthly")}
                     className={`px-4 py-1.5 rounded-full text-sm font-medium cursor-pointer transition-colors ${
